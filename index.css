@@ -26,6 +26,7 @@ body {
 }
 
 #my-first-project h3,
+#hack-reactor h3,
 #grace-hopper-precourse h3,
 #grace-hopper h3 {
   margin-top: -14px;
@@ -35,8 +36,13 @@ body {
 }
 
 #my-first-project h3 {
-  color: blue;
+  color: #190066;
   width: 138px;
+}
+
+#hack-reactor h3 {
+  color: blue;
+  width: 490px;
 }
 
 #grace-hopper-precourse h3 {
@@ -51,12 +57,17 @@ body {
 
 #my-first-project,
 #grace-hopper-precourse,
-#grace-hopper {
+#grace-hopper,
+#hack-reactor {
   margin-top: 50px;
   border-style: solid;
 }
 
 #my-first-project {
+  border-color: #190066;
+}
+
+#hack-reactor {
   border-color: blue;
 }
 
@@ -70,13 +81,12 @@ body {
 
 /* =========================================== */
 
-#first-project,
-#precourse-project,
-.grace-hopper-week-one {
+.project {
   overflow: auto;
 }
 
 #first-project a,
+#hr-final-project a,
 #precourse-project a,
 #grace-hopper-week-one-1 img,
 .grace-hopper-week-one a {
@@ -95,9 +105,9 @@ body {
 
 }
 
-#first-project p,
-#precourse-project p,
-.grace-hopper-week-one p {
+.project p,
+.project p,
+.project p {
   float: left;
   margin-left: 30px;
   width: 600px;
