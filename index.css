@@ -25,10 +25,7 @@ body {
 
 }
 
-#my-first-project h3,
-#hack-reactor h3,
-#grace-hopper-precourse h3,
-#grace-hopper h3 {
+.project-group h3 {
   margin-top: -14px;
   margin-left: 20px;
   background-color: white;
@@ -50,15 +47,17 @@ body {
   width: 210px;
 }
 
-#grace-hopper h3 {
+#grace-hopper-week-one h3 {
   color: #148A4D;
   width: 288px;
 }
 
-#my-first-project,
-#grace-hopper-precourse,
-#grace-hopper,
-#hack-reactor {
+#grace-hopper-week-two h3 {
+  color: #8BBA16;
+  width: 289px;
+}
+
+.project-group {
   margin-top: 50px;
   border-style: solid;
 }
@@ -75,8 +74,12 @@ body {
   border-color: #00858A;
 }
 
-#grace-hopper {
+#grace-hopper-week-one {
   border-color: #148A4D;
+}
+
+#grace-hopper-week-two {
+  border-color: #8BBA16;
 }
 
 /* =========================================== */
@@ -105,8 +108,6 @@ body {
 
 }
 
-.project p,
-.project p,
 .project p {
   float: left;
   margin-left: 30px;
