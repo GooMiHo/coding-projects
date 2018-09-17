@@ -52,6 +52,11 @@ body {
   width: 288px;
 }
 
+#grace-hopper-week-two h3 {
+  color: #8BBA16;
+  width: 289px;
+}
+
 .project-group {
   margin-top: 50px;
   border-style: solid;
@@ -71,6 +76,10 @@ body {
 
 #grace-hopper-week-one {
   border-color: #148A4D;
+}
+
+#grace-hopper-week-two {
+  border-color: #8BBA16;
 }
 
 /* =========================================== */
