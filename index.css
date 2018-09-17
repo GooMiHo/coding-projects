@@ -25,41 +25,55 @@ body {
 
 }
 
-#my-first-project a:link {
-  text-decoration: none;
-}
-
-#my-first-project h3 {
+#my-first-project h3,
+#grace-hopper-precourse h3 {
   margin-top: -14px;
   margin-left: 20px;
-  color: blue;
   background-color: white;
-  width: 138px;
   padding-left: 10px;
 }
 
-#my-first-project {
+#my-first-project h3 {
+  color: blue;
+  width: 138px;
+}
+
+#grace-hopper-precourse h3 {
+  color: #00858A;
+  width: 210px;
+}
+
+#my-first-project,
+#grace-hopper-precourse {
   margin-top: 50px;
   border-style: solid;
   border-color: blue;
 }
 
-#first-project {
+#my-first-project {
+  border-color: blue;
+}
+
+#grace-hopper-precourse {
+  border-color: #00858A;
+}
+
+#first-project,
+#precourse-project {
   overflow: auto;
 }
 
-#first-project a {
+#first-project a,
+#precourse-project a {
   line-height: 0;
   float: left;
+  margin-top: 10px;
   margin-left: 30px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
-#first-project a img {
-  height: 100%;
- }
-
-#first-project p {
+#first-project p,
+#precourse-project p {
   float: left;
   margin-left: 30px;
   width: 600px;
